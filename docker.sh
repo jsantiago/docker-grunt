@@ -25,7 +25,7 @@ function build {
 
 function run {
     setup
-    docker run $PORT $MOUNT -i -t $REPO
+    docker run -rm $PORT $MOUNT -i -t $REPO
 }
 
 function cleanup {
