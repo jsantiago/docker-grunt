@@ -50,7 +50,7 @@ function remove {
 }
 
 function usage {
-    echo "Usage: $0 [run | build]"
+    echo "Usage: $0 [build | run | cleanup | remove]"
 }
 
 MOUNT=""
